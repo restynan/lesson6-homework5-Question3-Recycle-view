@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/itemlistLayout"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border">
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/vizio" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+
+        android:text="TextView"
+        android:layout_toRightOf="@+id/image"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+    android:id="@+id/price"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/name"
+
+    android:layout_toRightOf="@+id/image"
+    android:text="TextView"
+        android:layout_marginLeft="20dp"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+
+        android:layout_toRightOf="@+id/image"
+        android:text="TextView"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_marginLeft="20dp"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/color"/>
+
+</RelativeLayout>
+

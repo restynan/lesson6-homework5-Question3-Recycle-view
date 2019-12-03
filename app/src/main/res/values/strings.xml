@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RecyclerListView</string>
+    <array name="detail">
+        <item>Introducing the RCA Voyager 7-inch Google Certified Tablet. Operating on Androids
+            sweetest operating system yet, Android 6.0 (Marshmallow), you can enjoy more of what the Google playstore has to offer.
+        </item>
+
+        <item>2 x USB 3.0 ports, 1 x USB 2.0 port, 1 x headphone/microphone combo jack, 1 x RJ-45 Ethernet port, 1 x HDMI port; 10/100Base-T Ethernet, 802.11b/g/n Wireless LAN;
+            Windows 10 Home; SuperMulti DVD Burner, Full-size island-style keyboard with numeric keypad
+        </item>
+
+        <item>InDisplay: 3 stars. Fair to good. The backlighting is a little uneven. (See picture. I did not edit it, but it looks more non-uniform in the photo than in real life).
+            The uneven lighting generally is not noticeable for TV/movie viewing. Dim scenes have a lot of motion blur, especially at 480p
+        </item>
+
+        <item>A breakthrough all-in-one printer that delivers enhanced productivity. The WorkForce WF-3640 offers enhanced productivity and flexible paper handling for small offices.
+            Powered by Epsons new PrecisionCore printing technology, the WF-3640 delivers Performance Beyond Laser.
+        </item>
+
+        <item>FLEXIBLE NOISE CANCELLATION BOOM MIC: Designed for people who suffer from the annoying keyboard noises and other background sound,
+            Beexcellent headsets accurately pick up your voice and differentiate between background noise and your voice.
+        </item>
+    </array>
+
+</resources>
