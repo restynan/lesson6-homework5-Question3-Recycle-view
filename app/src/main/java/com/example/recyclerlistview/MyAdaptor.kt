@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.item_list.view.*
 import android.content.Context
 
 class MyAdaptor(var context:Context,val productlist: ArrayList<Product>): RecyclerView.Adapter<MyAdaptor.MyViewHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdaptor.MyViewHolder {
         val v = LayoutInflater.from(parent?.context).inflate(R.layout.item_list, parent, false)
         return MyViewHolder(v);
