@@ -10,6 +10,8 @@ import kotlinx.android.synthetic.main.item_list.*
 import kotlinx.android.synthetic.main.item_list.view.*
 import android.content.Context
 
+import android.widget.ImageView
+
 class MyAdaptor(var context:Context,val productlist: ArrayList<Product>): RecyclerView.Adapter<MyAdaptor.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdaptor.MyViewHolder {
@@ -21,10 +23,10 @@ class MyAdaptor(var context:Context,val productlist: ArrayList<Product>): Recycl
     }
 
     override fun onBindViewHolder(holder: MyAdaptor.MyViewHolder, position: Int) {
-        holder?.pName?.text = productlist[position].title
-        holder?.pPrice.text =" Price : ${productlist[position].price.toString()}"
-        holder?.pColor.text = "Color : ${productlist[position].color}"
-        holder.pImage.setImageResource(productlist[position].imageName)
+        holder.pName?.text = productlist[position].title
+        holder.pPrice.text =" Price : ${productlist[position].price.toString()}"
+        holder.pColor.text = "Color : ${productlist[position].color}"
+      holder.pImage.setImageResource(productlist[position].imageName)
 
 
         holder.parent.setOnClickListener {
